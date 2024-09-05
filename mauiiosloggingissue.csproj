@@ -24,8 +24,7 @@
 		<ApplicationTitle>mauiiosloggingissue</ApplicationTitle>
 
 		<!-- App Identifier -->
-		<!--ApplicationId>com.companyname.mauiiosloggingissue</ApplicationId-->
-		<ApplicationId>com.tonestro.clarinet</ApplicationId>
+		<ApplicationId>com.companyname.mauiiosloggingissue</ApplicationId>
 
 		<!-- Versions -->
 		<ApplicationDisplayVersion>1.0</ApplicationDisplayVersion>
@@ -37,8 +36,6 @@
 		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">10.0.17763.0</SupportedOSPlatformVersion>
 		<TargetPlatformMinVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">10.0.17763.0</TargetPlatformMinVersion>
 		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'tizen'">6.5</SupportedOSPlatformVersion>
-        <CodesignProvision>match Development com.tonestro.clarinet</CodesignProvision>
-        <CodesignKey>Apple Development: Christoph Huber (28D498JS56)</CodesignKey>
 	</PropertyGroup>
 
 	<ItemGroup>
